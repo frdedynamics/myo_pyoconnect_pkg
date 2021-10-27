@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # uncompyle6 version 3.7.4
 # Python bytecode 2.7 (62211)
 # Decompiled from: Python 2.7.18 (default, Mar  8 2021, 13:02:45) 
@@ -9,6 +11,8 @@ from functools import partial
 import subprocess, time, webbrowser, importlib, configparser
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 from PyoConnectLib import *
+import rospy
+from std_msgs.msg import String
 print("HERE")
 print((sys.argv))
 # print(sys.path)
